@@ -5,17 +5,24 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @Description 问题地址： https://leetcode.com/problems/longest-increasing-subsequence/
- * 有一个无序的整型数组，请找出它的最长递增子序列的长度
- * 解析：http://zering.me/2016/09/02/Longest-Increasing-Subsequence/
+ * Q:https://leetcode.com/problems/longest-increasing-subsequence/
+ * Given an unsorted array of integers, find the length of longest increasing subsequence.
+ * For example,
+	Given [10, 9, 2, 5, 3, 7, 101, 18],
+	The longest increasing subsequence is [2, 3, 7, 101], therefore the length is 4. Note that there may be more than one LIS combination, it is only necessary for you to return the length.
+	
+	Your algorithm should run in O(n2) complexity.
+	
+	Follow up: Could you improve it to O(n log n) time complexity?
+ * 鍒嗘瀽锛歨ttp://zering.me/2016/09/02/Longest-Increasing-Subsequence/
  * @author Zhanghj
  *
  */
 public class LongestIncreasingSubsequence {
 	
 	/**
-	 * @Description 解法一：双重for循环-O(n2)
-	 * @param nums给出的数组
+	 * 澶嶆潅搴(n2)
+	 * @param nums
 	 * @return
 	 */
 	public int maxSequence(int[] nums){
@@ -36,7 +43,7 @@ public class LongestIncreasingSubsequence {
 	}
 	
 	/**
-	 * @Description 解法二：二分法-O(n log n)
+	 * 澶嶆潅搴(n log n)
 	 * @param nums
 	 * @return
 	 */

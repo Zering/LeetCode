@@ -14,7 +14,7 @@ package com.algorithm;
 public class TwoSumSortedArray {
 	
 	/**
-	 * 懒人解法
+	 * 澶嶆潅搴(n2)
 	 * @param numbers
 	 * @param target
 	 * @return
@@ -30,7 +30,7 @@ public class TwoSumSortedArray {
     }
 	
 	/**
-	 * 向中间靠近
+	 * 澶嶆潅搴(nlogn)
 	 * @return
 	 */
 	public int[] twoSumBetter(int[] numbers, int target) {

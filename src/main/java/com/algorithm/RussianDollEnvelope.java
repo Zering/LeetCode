@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Qestion£ºhttps://leetcode.com/problems/russian-doll-envelopes/
+ * Qestion:https://leetcode.com/problems/russian-doll-envelopes/
  * You have a number of envelopes with widths and heights given as a pair of integers (w, h).
  * One envelope can fit into another if 
  * and only if both the width and height of one envelope is greater than the width and height of
@@ -20,7 +20,7 @@ import java.util.List;
 public class RussianDollEnvelope {
 	
 	/**
-	 * ½â·¨Ò»£ºË«ÖØforÑ­»·£¬¸´ÔÓ¶ÈO(n2)
+	 * ï¿½â·¨Ò»ï¿½ï¿½Ë«ï¿½ï¿½forÑ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¶ï¿½O(n2)
 	 * @param envelopes
 	 * @return
 	 */
@@ -51,7 +51,7 @@ public class RussianDollEnvelope {
 	}
 	
 	/**
-	 * ½â·¨¶þ£ºÀûÓÃ¶þ·Ö²éÕÒ-O(n log n)
+	 * ï¿½â·¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½Ö²ï¿½ï¿½ï¿½-O(n log n)
 	 * @param envelopes
 	 * @return
 	 */
@@ -65,7 +65,7 @@ public class RussianDollEnvelope {
 				if(o1[0] != o2[0]){
 					return o1[0] - o2[0]; 
 				} else {
-					return o2[1] - o1[1];//µ¹Ðò-- widthÏàÍ¬µÄ²»ÄÜÇ¶Ì×
+					return o2[1] - o1[1];//ï¿½ï¿½ï¿½ï¿½-- widthï¿½ï¿½Í¬ï¿½Ä²ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½
 				}
 			}
 		});
