@@ -13,9 +13,9 @@ LeetCode解题
 	│      └─com
 	│          └─algorithm
 	│                  GeneratorParenthesis.java	//22. Generate Parentheses  
-	|		   ImplementstrStr.java		//28. Implement strStr()
+	|                  ImplementstrStr.java		//28. Implement strStr()
 	│                  LongestIncreasingSubsequence.java	300.Longest Increasing Subsequence
-	|		   LongestPalindromicSubstring.java	5. Longest Palindromic Substring  
+	|                  LongestPalindromicSubstring.java	5. Longest Palindromic Substring  
 	│                  RansomNote.java		//383. Ransom Note
 	│                  RussianDollEnvelope.java		//354. Russian Doll Envelopes
 	│                  SlidingWindowMaximum.java	//239. Sliding Window Maximum 
