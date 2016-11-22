@@ -2,6 +2,10 @@ package com.algorithm;
 /**
  * 74. Search a 2D Matrix
  * https://leetcode.com/problems/search-a-2d-matrix/
+ * 
+ * 240. Search a 2D Matrix II
+ * https://leetcode.com/problems/search-a-2d-matrix-ii/
+ * 解法相同
  * @author Zhanghj @ 2016年11月22日
  *
  */
